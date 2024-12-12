@@ -61,7 +61,7 @@ Pada tahap ini, kita akan membangun model Content-Based Filtering. Langkah-langk
   Penggunaan model berbasis Content-Based Filtering dengan parameter TF-IDF dan cosine similarity untuk menghitung skor kesamaan antar buku.
 
 # Bab 6: Evaluation
-Pada tahap ini, kita akan mengevaluasi kinerja model dengan menggunakan F1-Score. beberapa metrik evaluasi yang relevan. Metrik F1-Score, yang menggabungkan precision dan recall akan memberikan gambaran yang lebih seimbang.
+Pada tahap ini, kita akan mengevaluasi kinerja model dengan menggunakan F1-Score. beberapa metrik evaluasi yang relevan. Metrik F1-Score, yang menggabungkan precision dan recall akan memberikan gambaran yang lebih seimbang. 
 
  # Penutup
 Dengan menggunakan teknik Content-Based Filtering dan evaluasi dengan F1-Score, proyek ini bertujuan untuk memberikan rekomendasi buku yang relevan bagi pengguna berdasarkan fitur konten buku. Dengan demikian, proyek ini dapat membantu meningkatkan pengalaman pengguna dalam menemukan buku yang mereka sukai.
