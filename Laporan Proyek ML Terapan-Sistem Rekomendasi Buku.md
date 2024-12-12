@@ -61,7 +61,7 @@ Perhitungan MSE dan RMSE relatif sederhana dan dapat diimplementasikan dengan mu
    MSE dan RMSE adalah metrik yang sudah sangat umum digunakan dalam berbagai bidang, termasuk machine learning. Hal ini memudahkan perbandingan hasil dengan penelitian atau proyek lain.
 
 # Kesimpulan
-Berdasrkan hasil evaluasi ditemukan nilai MSE sebesar 0.0004271319090524664 dan RMSE sebesar 0.020667169836541877 menunjukkan tingkat error dari model ini kecil dalam memprediksi kesamaan antar buku. Nilai MSE dan RMSE yang rendah menunjukkan model memiliki performa yang baik dalam memprediksi kesamaan buku.
+Berdasrkan hasil evaluasi ditemukan nilai MSE sebesar 0.0004271319090524664 dan RMSE sebesar 0.020667169836541877 menunjukkan tingkat kesalahan atau error dari model ini kecil dalam memprediksi kesamaan antar buku. Nilai MSE dan RMSE yang rendah menunjukkan model memiliki performa yang baik dalam memprediksi kesamaan buku.
 
  # Penutup
 Dengan menggunakan teknik Content-Based Filtering dan evaluasi dengan MSE dan RMSE, proyek ini menghasilkan model sistem rekomendasi untuk memberikan rekomendasi buku yang relevan bagi pengguna berdasarkan fitur konten buku. Dengan demikian, proyek ini dapat membantu meningkatkan pengalaman pengguna dalam menemukan buku yang mereka sukai.
