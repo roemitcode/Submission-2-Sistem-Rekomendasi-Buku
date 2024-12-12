@@ -13,16 +13,22 @@ Goals (Tujuan)
 2.	Menggunakan berbagai fitur buku seperti judul, genre, dan deskripsi untuk menghitung kesamaan antar buku.
 
 # Bab 3: Data Understanding
-Dataset yang digunakan dalam proyek ini adalah Goodbooks-10k yang diounduh dari https://www.kaggle.com/datasets/zygmunt/goodbooks-10k  sebuah dataset besar yang berisi informasi tentang buku yang telah diulas oleh pengguna di platform Goodreads. Dataset ini terdiri dari sekitar 10.000 buku dengan berbagai fitur terkait.
-Fitur dalam dataset ini mencakup:
-- book_id: ID unik untuk setiap buku.
-- title: Judul buku.
-- author: Penulis buku.
-- year: Tahun rilis buku.
-- genre: Genre atau kategori buku (misalnya, fiksi, non-fiksi, misteri, dll.).
-- description: Deskripsi singkat tentang buku.
-- average_rating: Rating rata-rata buku dari pengguna.
-- num_ratings: Jumlah rating yang diberikan oleh pengguna.
+Dataset yang digunakan dalam proyek ini adalah Goodbooks-10k yang diounduh dari https://www.kaggle.com/datasets/zygmunt/goodbooks-10k  sebuah dataset besar yang berisi informasi tentang buku yang telah diulas oleh pengguna di platform Goodreads. Dataset ini terdiri dari sekitar 271.360 buku dengan berbagai fitur terkait.
+Fitur dalam dataset buku mencakup:
+- ISBN : merupakan nomor identitas unik buku.
+- Book-Title : merupakan judul buku.
+- Book-Author : merupakan nama penulis buku.
+- Year-Of-Publication : merupakan tahun publikasi buku.
+- Publisher : merupakan nama penerbit buku.
+- Image-URL-S : merupakan link URL gambar untuk ukuran small (kecil).
+- Image-URL-M : merupakan link URL gambar untuk ukuran medium (sedang).
+- Image-URL-L : merupakan link URL gambar untuk ukuran large (besar).
+
+-sedangkan untuk dataset rating terdiri dari :
+- User-ID : merupakan kode unik untuk nama pengguna anonim yang memberikan penilaian.
+- ISBN : merupakan nomor identitas buku.
+- Book-Rating : merupakan penilaian yang diberikan kepada buku.
+
 	Dari dataset ini, kita akan fokus pada fitur title, genre, dan description untuk membangun model rekomendasi berbasis konten. Data ini akan diproses dan dipersiapkan untuk membuat model rekomendasi.
 
 Kondisi Data
