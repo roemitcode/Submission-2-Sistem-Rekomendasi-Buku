@@ -25,7 +25,7 @@ Fitur dalam dataset buku mencakup:
 - Image-URL-M : merupakan link URL gambar untuk ukuran medium (sedang).
 - Image-URL-L : merupakan link URL gambar untuk ukuran large (besar).
 
--sedangkan untuk dataset rating terdiri dari :
+sedangkan untuk dataset rating terdiri dari :
 - User-ID : merupakan kode unik untuk nama pengguna anonim yang memberikan penilaian.
 - ISBN : merupakan nomor identitas buku.
 - Book-Rating : merupakan penilaian yang diberikan kepada buku.
@@ -60,7 +60,7 @@ Perhitungan MSE dan RMSE relatif sederhana dan dapat diimplementasikan dengan mu
 4. Umum digunakan.
    MSE dan RMSE adalah metrik yang sudah sangat umum digunakan dalam berbagai bidang, termasuk machine learning. Hal ini memudahkan perbandingan hasil dengan penelitian atau proyek lain.
 
-# Keseimpulan
+# Kesimpulan
 Berdasrkan hasil evaluasi ditemukan nilai MSE sebesar 0.0004271319090524664 dan RMSE sebesar 0.020667169836541877 menunjukkan tingkat error dari model ini kecil dalam memprediksi kesamaan antar buku. Nilai MSE dan RMSE yang rendah menunjukkan model memiliki performa yang baik dalam memprediksi kesamaan buku.
 
  # Penutup
