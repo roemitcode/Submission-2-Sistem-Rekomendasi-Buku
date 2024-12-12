@@ -13,7 +13,8 @@ Goals (Tujuan)
 2.	Menggunakan berbagai fitur buku seperti judul, genre, dan deskripsi untuk menghitung kesamaan antar buku.
 
 # Bab 3: Data Understanding
-Dataset yang digunakan dalam proyek ini adalah Goodbooks-10k yang diounduh dari https://www.kaggle.com/datasets/zygmunt/goodbooks-10k  sebuah dataset besar yang berisi informasi tentang buku yang telah diulas oleh pengguna di platform Goodreads. Dataset ini terdiri dari sekitar 271.360 buku dengan berbagai fitur terkait.
+Dataset yang digunakan dalam proyek ini adalah dataset kaggle yang diunduh dari https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset/data  sebuah dataset besar yang berisi informasi tentang buku yang telah diulas oleh pengguna . Dataset ini terdiri dari sekitar 271.360 buku dengan berbagai fitur terkait. Ada 3 jenis dataset yang ada dalam pangkalan data ini, tapi yang digunakan hanya 2 dataset yakni dataset buku dan rating karena disesuaikan dengan model content based reccomendation.
+
 Fitur dalam dataset buku mencakup:
 - ISBN : merupakan nomor identitas unik buku.
 - Book-Title : merupakan judul buku.
@@ -29,7 +30,7 @@ Fitur dalam dataset buku mencakup:
 - ISBN : merupakan nomor identitas buku.
 - Book-Rating : merupakan penilaian yang diberikan kepada buku.
 
-	Dari dataset ini, kita akan fokus pada fitur title, genre, dan description untuk membangun model rekomendasi berbasis konten. Data ini akan diproses dan dipersiapkan untuk membuat model rekomendasi.
+Data ini akan diproses dan dipersiapkan untuk membuat model rekomendasi.
 
 Kondisi Data
 - Dataset berisi informasi yang cukup lengkap tentang buku, namun mungkin ada beberapa nilai yang hilang, seperti yang ada di kolom deskripsi atau rating.
