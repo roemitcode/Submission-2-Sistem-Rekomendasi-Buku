@@ -71,6 +71,9 @@ Dalam model ini, parameter yang digunakan adalah :
 2. TF-IDF Matrix: Merepresentasikan fitur buku berbasis teks dalam format numerik.
 3. K: Jumlah buku rekomendasi yang ingin dihasilkan (k=5 sebagai default).
 
+Berdasarkan model yang dibuat, apabila pembaca suka membaca buku "Entering the Silence : Becoming a Monk and a Writer (The Journals of Thomas Merton, V. 2)" yang ditulis olh Thomas Merton, maka hasil n top recommendation adalah sebagai berikut.
+
+![cotoh n top](https://github.com/user-attachments/assets/1be54282-19d5-436b-adb1-2f98ca1911e4)
 
 
 # Bab 6: Evaluation
